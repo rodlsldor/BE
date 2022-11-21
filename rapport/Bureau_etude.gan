@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-16" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ff3333 #ccff33 #ff9966]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Réponse première question" color="#ff9966" meeting="false" start="2022-11-17" duration="1" complete="0" thirdDate="2022-11-21" thirdDate-constraint="0" webLink="https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1jcWkgYxxb-H7VrAmuFfadINpRR2e0jymqoQ_HDAy_nE%2Fedit%23heading%3Dh.f4lsugyivbc1" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="2" name="Structure du code" color="#ff3333" meeting="false" start="2022-11-24" duration="2" complete="0" thirdDate="2022-11-16" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[/!\ Structuration du code de chacune des fonction. Pas d'écriture du code, juste la mise en place d'une structure. Mise en place des fichiers pour le github qui est déjà crée.
+Envoyer le lien du git à tous les membres du projet.]]>
+            </notes>
+        </task>
+        <task id="1" name="Lister les tâches et répartition" color="#ccff33" meeting="false" start="2022-11-21" duration="1" complete="0" thirdDate="2022-11-15" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Rayan et Matteo vont réaliser l'organigramme du socket et coder l'initialisation de la communication
+Rayan va réaliser l'émission
+Matteo va réaliser la réception
+Emma va réaliser la fin de communication]]>
+            </notes>
+            <depend id="2" type="2" difference="0" hardness="Rubber"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
